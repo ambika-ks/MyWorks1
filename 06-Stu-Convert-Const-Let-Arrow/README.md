@@ -16,14 +16,3 @@ Work with a partner to implement the following user story:
 
 When is it not suitable to use arrow functions?
 
-## 🏆 BONUS
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Take one of the previous exercises and convert it to ES6 syntax. How can you shorten arrow functions even further?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

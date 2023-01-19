@@ -18,14 +18,3 @@ Implement the following user story:
 
 * Can we use template strings in place of string concatenation?
 
-## 🏆 BONUS
-
-If you have completed this activity, work through the following challenge to further your knowledge:
-
-* It's easy to get confused about which syntax belongs to which technology. The dollar sign (`$`) is used a lot in JavaScript. What are some other places you have seen the dollar sign used?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
