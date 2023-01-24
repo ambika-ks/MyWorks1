@@ -7,6 +7,8 @@ const moviePatrons = [
   { name: "Malcolm", age: 15 }
 ];
 
+
+
 // 1.
 
 // forEach is a functional way of iterating through an array without a for-loop
