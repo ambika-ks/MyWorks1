@@ -1,6 +1,4 @@
-# 🏗️ Convert to ES6 Syntax
-
-Work with a partner to implement the following user story:
+#  Convert to ES6 Syntax
 
 * As a developer, I want to be able to recognize and implement newer ES6 syntax.
 
