@@ -1,4 +1,4 @@
-# 🏗️ Implement Template Literals
+# Implement Template Literals
 
 Implement the following user story:
 
