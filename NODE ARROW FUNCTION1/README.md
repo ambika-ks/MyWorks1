@@ -1,6 +1,4 @@
-# 🐛 Fix Implementation of Arrow Functions
-
-Work with a partner to resolve the following issue(s):
+#  Fix Implementation of Arrow Functions
 
 * As a user, I want to run a script that will update a movie queue.
 
