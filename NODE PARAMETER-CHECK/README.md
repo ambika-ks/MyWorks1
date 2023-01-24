@@ -1,7 +1,5 @@
 # Implement `process.argv`
 
-Work with a partner to implement the following user story:
-
 * As a developer, I want to use command-line arguments as input when writing Node.js applications.
 
 ## Acceptance Criteria
@@ -14,13 +12,13 @@ Work with a partner to implement the following user story:
 
 * It's done if the program returns `true` when the values are the same and `false` if they are not. 
 
-## 💡 Hint
+##  Hint
 
-How many different ways can you solve this problem? Remember that there is not just one correct solution.
+There is not just one correct solution.
 
-## 🏆 BONUS
+## EXTRA
 
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+Work through the following 
 
 * What is the difference between `===` and `==` when comparing two values in JavaScript?
 
