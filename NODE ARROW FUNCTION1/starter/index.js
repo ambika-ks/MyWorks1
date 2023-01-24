@@ -9,7 +9,7 @@ var funnyCase = (string) => {
 };
 
 // Prints `yOu cAn't jUsT Do wHaTeVeR YoU WaNt aLl tHe tImE!`
-console.log(funnyCase("You can't just do whatever you want all the time!"));
+console.log(funnyCase("\n You can't just do whatever you want all the time!\n"));
 
 // --------------------------------------------------------------------------
 
