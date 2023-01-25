@@ -1,7 +1,5 @@
 # Implement Modules
 
-Work with a partner to resolve the following issue(s):
-
 * Users should be able to import and use the `maths.js` module to execute simple math operations.
 
 ## Expected Behavior
