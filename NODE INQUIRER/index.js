@@ -18,8 +18,11 @@ inquirer
       name: 'confirm',
     },
   ])
-  .then((response) =>
+
+  .then((response) =>{
+    console.log(`Your Username : ${response.username}`);
     response.confirm === response.password
       ? console.log('Success!')
       : console.log('You forgot your password already?!')
+  }
   );
