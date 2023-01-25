@@ -1,7 +1,5 @@
 # Build CLI App with inquirer
 
-Work with a partner to implement the following user story:
-
 * As a developer, I want to create a command-line application that takes in input from the user and does something with it.
 
 ## Acceptance Criteria
