@@ -30,8 +30,6 @@ It's possible that the `node_modules` folder is hidden in the `files.exclude` se
 
 ## EXTRA
 
-If you have completed this activity, work through the following challenge to further your knowledge:
-
 * How does the `-y` flag save us some time when running `npm init`? What does the `-g` flag do when running `npm install`? 
 
 Use [Google](https://www.google.com) or another search engine to research this.
