@@ -10,8 +10,6 @@ Refer to the documentation:
 
 ## EXTRA
 
-If you have completed this activity, work through the following challenge to further your knowledge:
-
 * What is a ternary operator?
 
 Use [Google](https://www.google.com) or another search engine to research this.
