@@ -40,6 +40,9 @@ const languages = ['HTML', 'CSS', 'JavaScript'];
 
 // TODO: Destructure the array 'languages'
 const [markup,style,scripting]=languages;
+//const.markup=languages[0];
+//const.style=languages[1];
+//const.scripting=languages[2]; It works like this
 
 console.log(markup, style, scripting); // <= HTML CSS JavaScript
 console.log(markup); // <= HTML
