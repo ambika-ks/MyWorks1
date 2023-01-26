@@ -1,0 +1,9 @@
+.list{
+    color: rgb(120, 3, 13);
+}
+
+.jumbotron{
+    width:100%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
