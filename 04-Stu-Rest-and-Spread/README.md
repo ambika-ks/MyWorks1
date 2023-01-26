@@ -1,6 +1,7 @@
-# 📐 Add Comments to Implementation and Use of Rest and Spread Operators
+# Add Comments to Implementation and Use of Rest and Spread Operators
 
-Work with a partner to add comments describing the functionality of the code found in [index.js](./starter/index.js).
+
+Add comments describing the functionality of the code found in [index.js](./starter/index.js).
 
 ## 📝 Notes
 
@@ -12,11 +13,7 @@ Refer to the documentation:
 
 * [MDN Web Docs on reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
----
-
-## 🏆 BONUS
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
+## EXTRA
 
 * On what other data types can you use the spread operator or rest parameters?
 

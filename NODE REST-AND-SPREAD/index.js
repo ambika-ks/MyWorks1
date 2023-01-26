@@ -5,6 +5,7 @@ function add(x, y) {
 console.log(add(1, 2, 3, 4, 5)); // => 3
 
 // 1. rest
+//rest to enclose the rest of specific user-supplied values into an array
 function add(...nums) {
   let sum = 0;
   for (let num of nums) sum += num;
@@ -24,6 +25,7 @@ console.log(howManyArgs(0, 1)); // You have passed 2 arguments.
 console.log(howManyArgs("argument!", null, ["one", 2, "three"], 4)); // You have passed 4 arguments.
 
 // 1. spread
+//spread to expand an array’s items into individual arguments
 const dragons = ["Drogon", "Viserion", "Rhaegal"];
 const weapons = ["dragonglass", ...dragons, "wildfire"]; // notice the spread operator ...dragons
 
