@@ -1,4 +1,4 @@
-# 📖 Implement and Recognize Object Destructuring
+# Implement and Recognize Object Destructuring
 
 Implement the following user story:
 
@@ -12,15 +12,14 @@ Implement the following user story:
 
 * It's done when I have run `node index.js` after destructuring to confirm the values logged in the console.
 
-## 📝 Notes
+## Notes
 
 Refer to the documentation: 
 
 [MDN Web Docs on object destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
----
 
-## 🏆 BONUS
+## EXTRA
 
 If you have completed this activity, work through the following challenge to further your knowledge:
 
