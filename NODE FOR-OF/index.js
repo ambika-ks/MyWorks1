@@ -7,13 +7,10 @@
 //   console.log(value);
 // }
 
-
 //output
 // Bad Guy
 // Old Town Road
 // 7 Rings
-
-
 
 
 // 2. Using map
