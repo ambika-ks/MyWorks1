@@ -1,4 +1,4 @@
-# 🏗️ Implement and Use for...of Loops
+# Implement and Use for...of Loops
 
 Implement the following user story:
 
@@ -14,9 +14,7 @@ Implement the following user story:
 
 What part of the object is essential in setting up the iteration of a `for...of` loop?
 
-## 🏆 BONUS
-
-If you have completed this activity, work through the following challenge to further your knowledge:
+## EXTRA
 
 * How could you iterate through deeply nested objects?
 
