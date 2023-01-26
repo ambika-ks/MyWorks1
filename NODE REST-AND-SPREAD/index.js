@@ -18,7 +18,7 @@ add(1, 1, 4, 5); // => 11
 
 // 2. 
 function howManyArgs(...args) {
-  return `You passed ${args.length} arguments.`; // point out the template literal
+  return `You passed ${args.length} arguments.`; // point out the template literal//Number of arguments
 }
 
 console.log(howManyArgs(0, 1)); // You have passed 2 arguments.
