@@ -1,6 +1,5 @@
 # Mini-Project
-
-In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.
+Build a command-line tool that generates an HTML portfolio page from user input.
 
 ## Instructions
 
@@ -18,11 +17,11 @@ In this activity, you will build a command-line tool that generates an HTML port
 
   * Promises for handling asynchronous behavior.
 
-## 💡 Hint
+## Hint
 
 It might be a good idea to start building out the HTML skeleton in a real HTML file. Once you're happy with the HTML file's appearance in the browser, you can copy and paste its contents into a string template literal. Then you can write a function to insert the user input into the appropriate places in the HTML string before writing it to the file system.
 
-## 🏆 BONUS
+## EXTRA
 
 * Instead of using promises, how can we use `async/await` and `try/catch` to control the flow of our asynchronous code?
 
