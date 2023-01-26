@@ -1,4 +1,4 @@
-.list{
+.list-group{
     color: rgb(120, 3, 13);
 }
 
@@ -6,4 +6,8 @@
     width:100%;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
+}
+
+.btn{
+    margin-top: 30px;
 }

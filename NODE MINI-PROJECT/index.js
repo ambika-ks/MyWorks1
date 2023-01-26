@@ -38,13 +38,33 @@ const promptUser=()=>
    `<!DOCTYPE html>
    <html lang="en">
    <head>
-       <meta charset="UTF-8">
-       
-       <title> MINI - PROJECT </title>
+       <meta charset="UTF-8">  
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <script src="index.js"></script>
+       <link rel="stylesheet" href="style.css">
+       <title>MINI - PROJECT</title>
    </head>
+   
    <body>
-       <h1 style="text-align:center;">|✨|**✨ Open the Console to see the magic ✨**|✨|</h1>
-       <script src="script.js"></script>
+       <div class="jumbotron">
+           <h1 class="display-4">QUESTIONNAIRE</h1>
+           <p class="lead">This is a simple Survey. Please provide relevant informations.</p>
+           <hr class="my-4">
+           <ul class="list-group">
+               <li class="list-group-item">Enter Your Name           :${answers.name}  </li>
+               <li class="list-group-item">Enter Your Location       :${answers.location} </li>
+               <li class="list-group-item">Enter Your Favourite Food :${answers.food} </li>
+               <li class="list-group-item">Enter Your favourite Color:${answers.color} </li>
+               <li class="list-group-item">Enter Your GitHub Username:${answers.github} </li>
+           </ul>       
+               <p class="lead text-right">
+                   <a class="btn btn-primary btn-lg " href="#" role="button">Submit</a>
+               </p>              
+         </div>      
    </body>
-   </html>
-   `
+   </html> `;
+
+promptUser()
+     .then((answers)=>writeFileAsync('index.html',generateHTML(answers)))
+     .then(()=>console.log(`Successfully wrote to index.html`))
+     .catch((err)=>console.error(err));
