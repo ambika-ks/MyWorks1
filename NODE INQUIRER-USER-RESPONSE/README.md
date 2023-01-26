@@ -22,8 +22,6 @@ Why do we need to use `JSON.stringify`? How can we use the npm page for `inquire
 
 ## EXTRA
 
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
 * How would you format your JSON? Can you generate the name of your user file from the user input?
 
 Use [Google](https://www.google.com) or another search engine to research this.

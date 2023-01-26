@@ -1,5 +1,5 @@
 {
-  "name": "10-stu-inquirer-users",
+  "name": "NODE INQUIRER-USER-RESPONSE",
   "version": "1.0.0",
   "description": "* As a developer, I want to create a command-line application that takes in input from the user and does something with it.",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^6.5.0"
   }
 }
