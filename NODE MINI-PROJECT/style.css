@@ -10,4 +10,8 @@
 
 .btn{
     margin-top: 30px;
+    border-radius: 250px;
+}
+.btn :hover{
+    background-color: brown;
 }
