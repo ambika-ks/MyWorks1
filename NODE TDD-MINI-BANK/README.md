@@ -42,7 +42,7 @@ Update the `MiniBank` constructor function with methods and properties as follow
 
 6. Print the `bank` balance.
 
-## BONUS 🏆
+## EXTRA
 
 - Add code to throw an error if the user tries to withdraw more money than they have or tries to deposit or withdraw values that aren't positive numbers.
 
