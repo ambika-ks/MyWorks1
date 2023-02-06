@@ -4,7 +4,7 @@ In this activity, you will generate RPG characters using Objects and prototypes.
 
 ## Instructions
 
-* Over the course of this activity, you are going to be using constructors to create simplistic characters for use within a very basic role-playing game (RPG).
+* Use constructors to create simplistic characters for use within a very basic role-playing game (RPG).
 
 * Each character created using your constructor should have the following properties:
 
