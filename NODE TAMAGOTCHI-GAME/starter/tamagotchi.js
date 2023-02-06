@@ -4,7 +4,8 @@ const DigitalPal = function () {
   this.sleepy = false;
   this.bored = true;
   this.age = 0;
-  this.houseQuality = 100;
+  this.outside=false;
+  this.houseCondition = 100;
 };
 // method which feeds the digitalpal when they are hungry and sets them to sleepy
 DigitalPal.prototype.feed = function () {
@@ -41,32 +42,21 @@ DigitalPal.prototype.play = function () {
   }
 };
 
-// adds the "destroyfurniture" method to the prototype which allows us decreases the "housequality" value by ten
-DigitalPal.prototype.destroyFurniture = function () {
-  if (this.houseQuality - 10 > 0) {
-    this.houseQuality -= 10;
-    this.bored = false;
-    this.sleepy = true;
-    console.log('MUAHAHAHAHA! TAKE THAT FURNITURE!');
-  } else {
-    console.log("I've already destroyed it all!");
-  }
-};
-
-// adds the "buyNewFurniture" method to the prototype which increases the "animals.cat.houseQuality" value by fifty
-DigitalPal.prototype.buyNewFurniture = function () {
-  this.houseQuality += 50;
-  console.log("Are you sure that's a good idea?");
-};
-
 // method which is called in "this.sleep" to increase the age of the digitalpal by one
 DigitalPal.prototype.increaseAge = function () {
   this.age++;
   console.log(`Happy Birthday to me! I am ${this.age} old!`);
 };
 
-// adds the method "letoutside" to the prototype which lets "dog" outside when it is outside
-DigitalPal.prototype.letOutside = function () {
+
+// adds the method "bark" to the prototype which lets our digitalpal bark
+DigitalPal.prototype.bark = function () {
+  console.log('Woof! Woof!');
+};
+
+
+// adds the method "goOutside" to the prototype which lets "dog" outside when it is outside
+DigitalPal.prototype.goOutside = function () {
   if (!this.outside) {
     console.log('Yay! I love the outdoors!');
     this.outside = true;
@@ -76,25 +66,42 @@ DigitalPal.prototype.letOutside = function () {
   }
 };
 
-// adds the method "letInside" to the prototype which lets our DigitalPal inside when it is outside
-DigitalPal.prototype.letInside = function () {
+
+// adds the method "goInside" to the prototype which lets our DigitalPal inside when it is outside
+DigitalPal.prototype.goInside = function () {
   if (this.outside) {
-    console.log('Aww... Do I have to?');
+    console.log('Aww... Do I have to? Fine....');
     this.outside = false;
   } else {
-    console.log("We're already inside though...");
+    console.log("I'am already inside though...");
   }
 };
 
-// adds the method "bark" to the prototype which lets our digitalpal bark
-DigitalPal.prototype.bark = function () {
-  console.log('Woof! Woof!');
-};
 
 // adds the "meow" method to the prototype which lets our pet meow.
 DigitalPal.prototype.meow = function () {
   console.log('Meow! Meow!');
 };
+
+// adds the "destroyfurniture" method to the prototype which allows us decreases the "houseCondition" value by ten
+DigitalPal.prototype.destroyFurniture = function () {
+  if (this.houseCondition - 10 > 0) {
+    this.houseCondition -= 10;
+    this.bored = false;
+    this.sleepy = true;
+    console.log('MUAHAHAHAHA! TAKE THAT FURNITURE!');
+  } else {
+    console.log("I've already destroyed it all!");
+  }
+};
+
+// adds the "buyNewFurniture" method to the prototype which increases the "animals.cat.houseCondition" value by fifty
+DigitalPal.prototype.buyNewFurniture = function () {
+  this.houseCondition += 50;
+  console.log("Are you sure that's a good idea?");
+};
+
+
 
 // Create a new animals object to contain our new Digital Pals
 const animals = {};
