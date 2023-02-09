@@ -43,6 +43,7 @@ describe("TodoList", () => {
     });
   });
 
+  
   describe("getNextTodo", () => {
     // Positive test
     it("should return the 0th todo element in the 'todos' array without removing it", () => {
@@ -51,6 +52,7 @@ describe("TodoList", () => {
       const text1 = "Exercise";
       const text2 = "Wash Car";
       let nextTodo;
+
 
       // Act
       todoList.addTodo(text1);
